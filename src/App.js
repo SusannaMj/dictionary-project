@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header"> </header>
       <img src={logo} className="App-logo" alt="logo" />
-      <a href="#" className="btn btn-primary">
+      <a href="#" className="btn btn-primary" rel="noreferrer">
         {" "}
         Hello
       </a>
