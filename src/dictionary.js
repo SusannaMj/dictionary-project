@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import "./dictionary.css";
 
 export default function Dictionary() {
-  let [userInput, setInput] = useState("");
+  let [input, setInput] = useState("");
   function handleChange(event) {
     event.preventDefault();
-    setInput = event.target.value;
+    setInput(event.target.value);
   }
 
   function handleSubmit(event) {
     event.preventDefault();
-    alert(setInput);
+    alert(input);
   }
   return (
     <div>
