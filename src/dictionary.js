@@ -4,6 +4,10 @@ import axios from "axios";
 
 export default function Dictionary() {
   let [input, setInput] = useState("");
+
+  function handleResponse(response) {
+    console.log(response.data[0]);
+  }
   function handleChange(event) {
     event.preventDefault();
     setInput(event.target.value);
@@ -12,6 +16,10 @@ export default function Dictionary() {
   function handleSubmit(event) {
     event.preventDefault();
     alert(input);
+    //documentation: https://dictionaryapi.dev/
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${input}`;
+
+    axios.get(apiUrl).then(handleResponse);
   }
   return (
     <div>
