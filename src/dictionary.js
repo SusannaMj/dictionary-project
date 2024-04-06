@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./dictionary.css";
+import axios from "axios";
 
 export default function Dictionary() {
   let [input, setInput] = useState("");
@@ -14,7 +15,7 @@ export default function Dictionary() {
   }
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="search-form">
         <input type="search" onChange={handleChange} />
       </form>
     </div>
