@@ -27,7 +27,11 @@ export default function Dictionary() {
     <div>
       <section>
         <form onSubmit={handleSubmit} className="search-form">
-          <input type="search" onChange={handleChange} />
+          <input
+            type="search"
+            onChange={handleChange}
+            placeholder="What word are you looking for?"
+          />
         </form>
       </section>
       <Results results={results} />
