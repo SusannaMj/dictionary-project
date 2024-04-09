@@ -1,7 +1,23 @@
 body {
-  background-color: aqua;
+  background-color: rgb(222, 237, 251);
 }
 
-.dictionary section {
+section {
   background-color: aliceblue;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  color: #5e5e5e;
+}
+
+a {
+  color: rgb(32, 211, 211);
 }
