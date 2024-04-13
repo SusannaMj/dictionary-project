@@ -1,0 +1,13 @@
+h3 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.definition {
+  font-weight: 500;
+  opacity: 0.9;
+}
+.meanings {
+  margin-top: 20px;
+}
