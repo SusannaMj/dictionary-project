@@ -14,3 +14,11 @@ footer {
   text-align: center;
   font-size: 13px;
 }
+
+.App a {
+  text-decoration: none;
+}
+
+.App a:hover {
+  color: rgb(107, 218, 246);
+}
