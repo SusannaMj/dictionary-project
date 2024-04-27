@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(205, 228, 249);
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/652/original/top-view-wooden-desk-with-notebooks-copy-space.jpg?1714218458");
+  background-size: cover;
 }
 
 section {

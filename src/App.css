@@ -7,18 +7,20 @@
 
 .container {
   max-width: 600px;
-  margin: 30px auto;
+  margin-left: 1200px;
 }
 
 footer {
   text-align: center;
   font-size: 13px;
+  color: white;
 }
 
 .App a {
   text-decoration: none;
+  color: black;
 }
 
 .App a:hover {
-  color: rgb(107, 218, 246);
+  color: black;
 }
